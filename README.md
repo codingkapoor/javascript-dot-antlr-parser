@@ -4,10 +4,15 @@ ANTLR parser written in Javascript for the DOT language
 # Objective
 The objective of this project is to demostrate how to capture diagnostics i.e., semantic and syntactic errors for DOT language using ANTLR parser written in Javascript.
 
+# Installation
+```script
+npm install --save javascript-dot-antlr-parser
+```
+
 # Usage
 ```javascript
-var validator = require('./index');
-validator.doValidation("gaph { \n a -- b \n a - b \n b - a [color=blue] \n }")
+const jdap = require('javascript-dot-antlr-parser');
+console.log(jdap.doValidation("gaph { \n a -- b \n a - b \n b - a [color=blue] \n }"));
 ```
 
 # Output

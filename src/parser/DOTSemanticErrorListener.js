@@ -16,7 +16,7 @@ DOTSemanticErrorListener.prototype.syntaxError = function(recognizer, offendingS
     if(offendingSymbol == null)
         this.diagnostics.push(new DiagnosticMessage(msg, line - 1, charPositionInLine, "", 0));
     else
-        this.diagnostics.push(new DiagnosticMessage(msg, line - 1, charPositionInLine, offendingSymbol.text, offendingSymbol.stopIndex - offendingSymbol.startIndex + 1));
+        this.diagnostics.push(new DiagnosticMessage(msg, line - 1, charPositionInLine, offendingSymbol.text, offendingSymbol.stop - offendingSymbol.start + 1));
 };
 
 exports.DOTSemanticErrorListener = DOTSemanticErrorListener;

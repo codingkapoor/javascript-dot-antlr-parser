@@ -1,0 +1,11 @@
+{
+  "name": "javascript-dot-antlr-parser",
+  "version": "1.0.0",
+  "description": "ANTLR parser in JavaScript for DOT language",
+  "main": "index.js",
+  "author": "codingkapoor",
+  "license": "MIT",
+  "dependencies": {
+    "antlr4": "4.7.1"
+  }
+}

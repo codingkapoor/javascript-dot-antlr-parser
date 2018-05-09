@@ -1,5 +1,5 @@
 # javascript-dot-antlr-parser
-ANTLR parser in Javascript for DOT language
+ANTLR parser written in Javascript for the DOT language
 
 # Objective
 The objective of this project is to demostrate how to capture diagnostics i.e., semantic and syntactic errors for DOT language using ANTLR parser written in Javascript.

@@ -28,10 +28,10 @@ function doValidation(text) {
 
     antlr4.tree.ParseTreeWalker.DEFAULT.walk(new DOTListener(), tree);
 
-    return JSON.stringify({
-        "syntacticErrors": syntacticErrorListener.diagnostics,
-        "semanticErrors": semanticErrorListener.diagnostics
-    });
+    return {
+        syntacticErrors: syntacticErrorListener.diagnostics,
+        semanticErrors: semanticErrorListener.diagnostics
+    };
 }
 
 exports.doValidation = doValidation;

@@ -1,6 +1,6 @@
 {
   "name": "js-dot-antlr-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The objective of this project is to demonstrate how to capture diagnostics i.e., semantic and syntactic errors for DOT language using ANTLR parser written in Javascript.",
   "main": "index.js",
   "dependencies": {

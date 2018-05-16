@@ -1,9 +1,9 @@
-# javascript-dot-antlr-parser
+# js-dot-antlr-parser
 The objective of this project is to demostrate how to capture diagnostics i.e., semantic and syntactic errors for DOT language using ANTLR parser written in Javascript.
 
 # Installation
 ```script
-npm install --save javascript-dot-antlr-parser
+npm install --save js-dot-antlr-parser
 ```
 
 # Usage

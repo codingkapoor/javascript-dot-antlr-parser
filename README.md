@@ -8,7 +8,7 @@ npm install --save js-dot-antlr-parser
 
 # Usage
 ```javascript
-const jdap = require('javascript-dot-antlr-parser');
+const jdap = require('js-dot-antlr-parser');
 console.log(JSON.stringify(jdap.doValidation("gaph { \n a -- b \n a - b \n b - a [color=blue] \n }")));
 console.log(JSON.stringify(jdap.doValidation("gaph { \n a -- b \n a - b \n b - a [color=blue] \n }").semanticErrors));
 console.log(JSON.stringify(jdap.doValidation("gaph { \n a -- b \n a - b \n b - a [color=blue] \n }").syntacticErrors));
